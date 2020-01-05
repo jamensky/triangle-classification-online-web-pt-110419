@@ -32,7 +32,7 @@ class Triangle
     x = self.measures.min(2)
     y = self.measures.max
     z = x[0] + x[1]
-    y > z
+    y >= z
   end
 
 
